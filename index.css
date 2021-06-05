@@ -1,0 +1,39 @@
+ul {
+  text-align: end;
+  position: relative;
+  right: 20px;
+}
+li {
+  display: inline;
+}
+#google-logo {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+#searchbar {
+  text-align: center;
+  margin-top: 25px;
+}
+#searchbar #search {
+  width: 580px;
+  height: 40px;
+  border: 1px solid #dfe1e5;
+  background-color: white;
+  border-radius: 24px;
+}
+.submit {
+  margin-top: 40px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  height: 40px;
+  padding: 0 16px;
+  margin: 28px 4px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+#lang {
+  text-align: center;
+}
