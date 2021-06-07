@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="index.css" rel="stylesheet" />
-</head>
-<body>
-    <nav> 
-        <ul>
-            <div id="move">
-            <li><a href="#">Gmail</a></li> 
-            <li><a href="#">Images</a></li>
-            <li id="cell">cell<li>
-            <li id="icon">Icon<img/><li>
-        </ul>
-    </nav>
-    <main>
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-        <form id="searchbar">
-            <input id="search" type="text">
-            <div id="div-submit">
-                <input class="submit" type="submit" value="Google Search"/>
-                <input class="submit" type="submit" value="I'm Feeling Lucky"/>
-            </div>
+  </head>
+  <body>
+    <div id="flex-container">
+      <nav>
+        <a href="">Gmail</a>
+        <a href="#">Images</a>
+        <img
+          id="apps-icon"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgCNtZfGj0oUwx0KgCTXWlPhhAdDu3XEsswpVo9a3oVSiUYhBKhQUkkeA5lsY0LijBg1M&usqp=CAU"
+        />
+        <img
+          id="account-icon"
+          src="https://icon-library.com/images/user-accounts-icon/user-accounts-icon-15.jpg"
+        />
+      </nav>
+
+      <main>
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        />
+        <form>
+          <input type="text" />
+          <div id="buttons">
+            <input type="submit" />
+            <input type="submit" />
+          </div>
         </form>
-        <div id="lang">Google offered in <a href="#">Kyrgyz</a> <a href="#">Russian</a></div>
-    </main>
-    <footer>
-        <div id="country">Kyrgyzstan</div>
-        <div id="options-container">
-            <div id="options1">
-                <a href=#>About</a> 
-                <a href=#>Advertising</a> 
-                <a href=#>Business</a> 
-                <a href=#>How Search works</a>
-            </div>
-            <div id=options2>
-                <a href="#">Privacy</a> 
-                <a href="#">Terms</a> 
-                <a href="#">Settings</a>
-            </div>
+      </main>
+
+      <footer>
+        <div id="country"><p>Kyrgyzstan</p></div>
+        <div id="options">
+          <div id="options1">
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+          </div>
+          <div id="options2">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+          </div>
         </div>
-    </footer>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
