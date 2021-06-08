@@ -1,8 +1,9 @@
 /* The structure of the page is divided into 4 parts: 0.setup 1.navigation 2.main 3.footer.
-I tried to divide the css code into three parts in order to keep things tight.
+I tried to divide the css code into 4 parts in order to keep things tight.
 I tried my best to make it as comprehensible as possible but even this little simple code looks like mess
 After learning a bit about flexbox, I used it for the layout of the page.
-I hope you won't be too mad about the code in case you want to check it out. Good luck.*/
+I hope you won't be too mad about the code in case you want to check it out. In case you want to check it out, I expect 
+constructive criticism so I can learn from my mistakes. Good luck.*/
 
 /*0.Setup*/
 body {
